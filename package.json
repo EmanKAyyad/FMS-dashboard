@@ -1,0 +1,13 @@
+{
+  "name": "fms",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.4.1"
+  },
+  "scripts": {
+    "dev": "lerna run dev --scope=fms-dashboard"
+  }
+}
